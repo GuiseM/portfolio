@@ -1,0 +1,403 @@
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5%;
+}
+
+main .main-content {
+    flex-direction: column;
+    display: flex;
+}
+
+main .main-content h2 {
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+
+main .main-content .text{
+    transition: 2s;
+}
+
+main .main-content .text .about{
+    width: 60%;
+    font-size: 1.2em;
+    font-weight: 300;
+    padding-bottom: 1.5em;
+    padding-left: 0.5em;
+}
+
+main .techs .cards-container {
+    display: flex;
+    align-items: center;
+    padding-left: 0.5em;
+    padding-top: 50px;
+}
+
+/* CONTAINER CARDS ONE-ONE STYLE */
+
+main .techs .cards-container .card #html {
+    padding-top: 50px;
+
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-right: 2em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 75%;
+    transition: box-shadow, opacity 0.5s;
+}
+
+main .techs .cards-container .card #css {
+    padding-top: 50px;
+
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-right: 2em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 75%;
+    transition: box-shadow, opacity 0.5s;
+}
+
+main .techs .cards-container .card #java {
+    padding-top: 50px;
+
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-right: 2em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 75%;
+    transition: box-shadow, opacity 0.5s;
+}
+
+main .techs .cards-container .card #node {
+    padding-top: 50px;
+
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-right: 2em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 75%;
+    transition: box-shadow, opacity 0.5s;
+
+}
+
+main .techs .cards-container .card #js {
+    padding-top: 50px;
+
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin-right: 2em;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 75%;
+    transition: box-shadow, opacity 0.5s;
+}
+
+/* ---------------------- */
+
+main .techs .cards-container .card img {
+    width: 80%;
+}
+
+/* CONTAINER SHADOW CARDS ONE-ONE */
+
+main .techs .cards-container .card:hover #html {
+    box-shadow: 0px 0px 8px #b9d1e2;
+    opacity: 100%;
+}
+
+main .techs .cards-container .card:hover #css {
+    box-shadow: 0px 0px 8px #b9d1e2;
+    opacity: 100%;
+}
+
+main .techs .cards-container .card:hover #js {
+    box-shadow: 0px 0px 8px #b9d1e2;
+    opacity: 100%;
+}
+
+main .techs .cards-container .card:hover #java {
+    box-shadow: 0px 0px 8px #b9d1e2;
+    opacity: 100%;
+}
+
+main .techs .cards-container .card:hover #node {
+    box-shadow: 0px 0px 8px #b9d1e2;
+    opacity: 100%;
+}
+
+/* ------------------ */
+
+main figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 2s;
+}
+
+main figure img {
+    width: 100%;
+    border-radius: 100px;
+    opacity: 80%;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 50px;
+}
+
+main figure img:hover {
+    opacity: 100%;
+    box-shadow: 0px 0px 5px #b9d1e2;
+}
+
+main .main-content .text .extra {
+    width: 60%;
+    font-size: 1.15em;
+    font-weight: 300;
+    padding-bottom: 3em;
+    padding-left: 0.5em;
+}
+
+main .techs .cards-container i {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: none;
+    
+    cursor: pointer;
+    transition: 0.5s;
+    opacity: 0%;
+    margin-right: 50px;
+}
+
+#linha {
+    margin-top: 50px;
+}
+
+main #linha {
+    display: none;
+    margin-top: 50px;
+    transition: 2s;
+}
+
+/* TEXT HTML */
+main #TextHTML {
+    padding-top: 5%;
+    font-size: 30px;
+    margin-left: 3rem;
+    font-weight: 300;
+    
+    display: none;
+    
+    opacity: 0%;
+    transition: 3s;
+}
+
+main #TextHTML p {
+    font-size: 20px;
+    margin-left: 3.5rem;
+    font-weight: 300;
+}
+
+main #TextHTML .nivel1{
+    margin-left: 0;
+    color: #de4251;
+    font-weight: 2000;
+    font-size: 25px;
+}
+/* ------------------------- */
+
+/* TEXT CSS */
+main #TextCSS {
+    padding-top: 5%;
+    font-size: 30px;
+    margin-left: 3rem;
+    font-weight: 300;
+    
+    display: none;
+    
+    opacity: 0%;
+    transition: 3s;
+}
+
+main #TextCSS p {
+    font-size: 20px;
+    margin-left: 3.5rem;
+    font-weight: 300;
+}
+
+main #TextCSS .nivel2{
+    margin-left: 0;
+    color: #de4251;
+    font-weight: 2000;
+    font-size: 25px;
+}
+/* --------------------- */
+
+/* TEXT JAVASCRIPT */
+main #TextJS {
+    padding-top: 5%;
+    font-size: 30px;
+    margin-left: 3rem;
+    font-weight: 300;
+    
+    display: none;
+    
+    opacity: 0%;
+    transition: 3s;
+}
+
+main #TextJS p {
+    font-size: 20px;
+    margin-left: 3.5rem;
+    font-weight: 300;
+}
+
+main #TextJS .nivel3{
+    margin-left: 0;
+    color: #de4251;
+    font-weight: 2000;
+    font-size: 25px;
+}
+
+main #TextJS #destaque{
+    color: #FFE033;
+    font-weight: 2000;
+    font-size: 25px;
+    margin-left: 3.4rem;
+}
+
+/* ---------------- */
+
+/* TEXT JAVA */
+
+main #TextJAVA {
+    padding-top: 5%;
+    font-size: 30px;
+    margin-left: 3rem;
+    font-weight: 300;
+    
+    display: none;
+    
+    opacity: 0%;
+    transition: 3s;
+}
+
+main #TextJAVA p {
+    font-size: 20px;
+    margin-left: 3.5rem;
+    font-weight: 300;
+}
+
+main #TextJAVA .nivel4{
+    margin-left: 0;
+    color: #de4251;
+    font-weight: 2000;
+    font-size: 25px;
+}
+
+/* ----------------------- */
+
+/* TEXT NODE */
+
+main #TextNODE {
+    padding-top: 5%;
+    font-size: 30px;
+    margin-left: 3rem;
+    font-weight: 300;
+    
+    display: none;
+    
+    opacity: 0%;
+    transition: 3s;
+}
+
+main #TextNODE p {
+    font-size: 20px;
+    margin-left: 3.5rem;
+    font-weight: 300;
+}
+
+main #TextNODE .nivel5{
+    margin-left: 0;
+    color: #37c978;
+    font-weight: 2000;
+    font-size: 25px;
+}
+
+button {
+    width: 70px;
+    height: 40px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 300px;
+    margin-top: 2em;
+    font-weight: 800;
+    transition: 1s;
+    color: #ddd;
+    background-color: #222;
+    opacity: 80%;
+
+    border: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0px 0px 6px #eee;
+    background-color: #ddd;
+    color:  #222;
+    opacity: 100%;
+}
+
+figcaption {
+    opacity: 50%;
+}
+
+#back {
+    width: 50%;
+}
+
+#tecno {
+    transition: 2s;
+}
