@@ -1,3 +1,3 @@
 # portifolio
 Portifólio pessoal
-https://guisem.github.io/portifolio/
+https://guisem.github.io/portfolio/
